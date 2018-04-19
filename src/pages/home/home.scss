@@ -1,0 +1,30 @@
+page-home {
+    .bg-image{
+        background-image: url('https://s3.amazonaws.com/aws-website-wwwcaredocin-o7zfa/img/splash_logo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+
+}
+.button.customBtn{
+    
+    width:40%;
+}
+
+
+#bt1,#bt2{
+    display:inline;
+    padding-bottom: 5%
+    
+}
+
+
+#bt1{
+padding-left: 5%;
+padding-right: 5%
+    }
+#bt2{
+    padding-right: 5%
+}

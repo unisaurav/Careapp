@@ -1,0 +1,42 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list text-center>
+        <ion-img width="180" height="100"  src="https://s3.amazonaws.com/aws-website-wwwcaredocin-o7zfa/img/mobimg.jpg"></ion-img>
+        <ion-item >
+        
+          <ion-label floating>Email</ion-label>
+          <ion-input type="text" #email ></ion-input>
+          
+        </ion-item>
+        <div id="passid">
+        <ion-item bottom right >
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" #pass></ion-input>
+        </ion-item>
+        </div>
+ 
+   <div id="newid" >
+    <button ion-button color="dark" clear style="font-weight: 10" class="forgot_button" (click)="to_forgotfunc()">Forgot Password?</button>
+   </div>
+        <div id="lnbtn">
+        <button ion-button color="cynablue" round class="btnlogin" (click)="to_login()"> Login</button>
+      </div>
+      <button ion-button color="dark" clear style="font-weight: 10" class="forgot_button" (click)="no_account()">Don't have an account? Signup</button>
+ 
+      </ion-list>
+
+</ion-content>

@@ -1,0 +1,11 @@
+<ion-menu [content]="content">
+    <h3> </h3>
+<ion-list>
+    <button menuClose ion-item *ngFor="let p of pages"  [class.activeHighlight]="chechactive(p)" (click)='gotodashboard(p)'>
+            <ion-icon name="{{p.icon}}"></ion-icon>    {{p.title}}
+    </button>
+    </ion-list>
+</ion-menu>
+
+
+<ion-nav #content [root]="rootPage"></ion-nav>
